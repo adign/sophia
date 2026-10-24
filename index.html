@@ -799,7 +799,7 @@ function check(){
     code=''; updDots();
     var c=$('#codeCard'); c.classList.remove('shake'); void c.offsetWidth; c.classList.add('shake');
     $('#lockMsg').textContent=fails===1?'hint: a date my heart memorised forever 💫':
-      (fails>=2?'14 · 09 · 05 — the day my world began 🎂':'try again, my love… 🤍');
+      (fails>=2?'14 · 09 · __ 🎂':'try again, my love… 🤍');
   }catch(e){showErr(e)}
 }
 function unlock(){
